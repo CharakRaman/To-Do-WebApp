@@ -1,6 +1,20 @@
 var container = document.querySelector('.container');
-var addBtn = document.querySelector('.addBtn');
+var addbtn = document.querySelector('.addbtn');
 var input=document.querySelector('.inputfield');
+
+addbtn.addEventListener('click', addItem);
+ function addItem(){
+     if(input.value!=''){
+       new CreateItem(input.value);  
+     }
+     input.value='';
+ }
+    window.addEventListener('keydown', (e) => {
+        if(e.which ==13){
+            addItem();
+
+        }
+    })
 
 class CreateItem{
     constructor(ItemName){
@@ -27,9 +41,16 @@ class CreateItem{
         main.appendChild(editBtn);
         main.appendChild(deleteBtn);
 
+        editBtn.addEventListener('click', () => this.editItem(item));
+        deleteBtn.addEventListener('click', () =>this.deleteItem(main) ); 
 
-
+    }
+    editItem(item){
+        item.disabled =! item.disabled;
+    }
+    deleteItem(main){
+        container.removeChild(main);
 
     }
 }
-    new CreateItem('Hello WOrld');
+   
