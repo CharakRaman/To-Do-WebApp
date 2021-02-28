@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(180deg, orange, white, green);
+    height: 100vh;
+}
+
+.mainitem, .container{
+    width: 100%;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.addbtn{
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: bold;
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    outline: none;
+    cursor: pointer;
+}
+.inputfield{
+    background-color: white;
+    border: none;
+    color: black;
+    height: 25px;
+    width: 40%;
+    text-align: center;
+    border-radius: 16px;
+    padding: 10px;
+    margin-right: 10px;
+    outline: none;
+
+}
+.editBtn{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: navy;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    outline: none;
+    font-family: cursive;
+    font-weight: bold;
+}
+.deleteBtn{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: red;
+    font-size: 16px;
+    margin-right: 10px;
+    outline: none;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+.item{
+    height: 25px;
+    width: 25%;
+    background-color: white;
+    color: black;
+    border: none;
+    text-align: center;
+    border-radius: 16px;
+    padding-left: 10px;
+}
