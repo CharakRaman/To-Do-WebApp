@@ -52,6 +52,18 @@ body{
     font-family: cursive;
     font-weight: bold;
 }
+.editBtn:hover{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: darkgreen;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    outline: none;
+    font-family: cursive;
+    font-weight: bold;
+}
 .deleteBtn{
     border: none;
     cursor: pointer;
@@ -62,7 +74,17 @@ body{
     outline: none;
     font-family: cursive;
     font-weight: bold;
-
+}
+.deleteBtn:hover{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: cornflowerblue;
+    font-size: 16px;
+    margin-right: 10px;
+    outline: none;
+    font-family: cursive;
+    font-weight: bold;
 }
 .item{
     height: 25px;
