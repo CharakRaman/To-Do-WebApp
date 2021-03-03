@@ -5,9 +5,9 @@
     font-family: 'Akaya Telivigala', cursive;
 }
 body{
-    background-image: url("./img/pexels-miguel-á-padriñán-255379.jpg");
+    /* background-image: url("./img/pexels-miguel-á-padriñán-255379.jpg"); */
     background-size: cover;
-    /* background-image: linear-gradient(180deg, orange, white, green); */
+     background-image: linear-gradient(180deg, orange, white, green); 
     height: 100vh;
 }
 
